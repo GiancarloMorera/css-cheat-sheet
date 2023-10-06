@@ -23,11 +23,15 @@ section{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-top: 150px;
 
 }
 
 .top-card{
-
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-card-title{
@@ -35,12 +39,15 @@ section{
     padding: 10px;
     width: 300px;
     position: absolute;
+    top: -50px;
+    z-index: 10;
+    background-color: white;
 
 }
 
 .top-card-inner{
-    border: 2px solid black;
-    padding: 20px;  
+    border: 4px dotted black;
+    padding: 20px;
 
 }
 
