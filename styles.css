@@ -46,7 +46,7 @@ section{
 }
 
 .top-card-inner{
-    border: 4px dotted black;
+    border: 4px dashed black;
     padding: 20px;
 
 }
